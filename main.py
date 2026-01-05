@@ -12,6 +12,7 @@ def newnote():
         def notebook():
             root.geometry('365x110')
             root.title(newnotename)
+            exitButt.destroy()
             notenameT.destroy()
             notename.destroy()
             createButt.destroy()
